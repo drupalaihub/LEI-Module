@@ -35,12 +35,12 @@ Content Type and Fields
 This module creates a new content type named application with the following fields:
 
 Company name (title)
-Registration number - Plain text, 255 characters
-Country code - Plain text, 2 characters
-LEI code - Plain text, maximum 20 characters
-Next renewal date - Date only field
-LEI status - Plain text, 255 characters
-GLEIF last update - Date field with both date and time
+Registration number
+Country code
+LEI code
+Next renewal date
+LEI status
+GLEIF last update
 
 Update GLEIF Data Function
 The module provides a function to update GLEIF data for a specific application. You can access this function via a URL where the node ID is an argument.
@@ -57,7 +57,7 @@ https://api.gleif.org/api/v1/lei-records?filter[entity.jurisdiction]=<country_co
 Make sure to replace <country_code> and <registration_number> with the actual values from the application node.
 
 View
-A view named applications is included to list the applications with the following fields:
+A view named Listing applications is included with the following fields:
 Application company name (title)
 LEI code
 LEI status (colored green if "ISSUED", red if "LAPSED", or yellow otherwise)
@@ -72,24 +72,7 @@ modules/
     lei/
       config/
         install/
-          core.entity_form_display.node.application.default.yml
-          core.entity_view_display.node.application.default.yml
-          core.entity_view_display.node.application.teaser.yml
-          field.field.node.application.field_registration_number.yml
-          field.field.node.application.field_country_code.yml
-          field.field.node.application.field_lei_code.yml
-          field.field.node.application.field_next_renewal_date.yml
-          field.field.node.application.field_lei_status.yml
-          field.field.node.application.field_gleif_last_update.yml
-          field.storage.node.field_registration_number.yml
-          field.storage.node.field_country_code.yml
-          field.storage.node.field_lei_code.yml
-          field.storage.node.field_next_renewal_date.yml
-          field.storage.node.field_lei_status.yml
-          field.storage.node.field_gleif_last_update.yml
-          node.type.application.yml
-          views.view.applications.yml
-
+          .yml files  
       src/
         Controller/
           LEIController.php
