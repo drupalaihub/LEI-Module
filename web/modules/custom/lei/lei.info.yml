@@ -1,0 +1,10 @@
+# lei.info.yml
+name: 'LEI Module'
+type: module
+description: 'Custom module for handling LEI data.'
+core_version_requirement: ^8 || ^9 || ^10
+package: 'Custom'
+dependencies:
+  - datetime
+version: VERSION
+core: 8.x

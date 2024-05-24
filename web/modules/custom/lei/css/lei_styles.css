@@ -1,0 +1,20 @@
+.lei-status {
+    padding: 3px 8px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.lei-status--issued {
+    background-color: green;
+    color: white;
+}
+
+.lei-status--lapsed {
+    background-color: red;
+    color: white;
+}
+
+.lei-status--others {
+    background-color: yellow;
+    color: black;
+}

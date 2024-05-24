@@ -1,0 +1,19 @@
+uuid: 77125321-238a-4b69-8156-91a942a0605c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_registration_number
+    - node.type.application
+id: node.application.field_registration_number
+field_name: field_registration_number
+entity_type: node
+bundle: application
+label: 'Registration number'
+description: 'Registration number - plain text 255 characters.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

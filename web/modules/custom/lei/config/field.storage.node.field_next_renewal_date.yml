@@ -1,0 +1,20 @@
+uuid: dc1b15e8-d9c2-4b8d-a1a9-7d543178405d
+langcode: en
+status: true
+dependencies:
+  module:
+    - datetime
+    - node
+id: node.field_next_renewal_date
+field_name: field_next_renewal_date
+entity_type: node
+type: datetime
+settings:
+  datetime_type: date
+module: datetime
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
