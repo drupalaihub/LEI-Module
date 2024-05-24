@@ -1,5 +1,0 @@
-lei_styles:
-  version: VERSION
-  css:
-    theme:
-      css/lei_styles.css: {}
