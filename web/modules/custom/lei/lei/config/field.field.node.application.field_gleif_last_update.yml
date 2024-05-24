@@ -1,0 +1,21 @@
+uuid: 122ac8bf-6d3a-41a1-b15b-cb51609d2002
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_gleif_last_update
+    - node.type.application
+  module:
+    - datetime
+id: node.application.field_gleif_last_update
+field_name: field_gleif_last_update
+entity_type: node
+bundle: application
+label: 'GLEIF last update'
+description: 'GLEIF last update - Date field with both date and time.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

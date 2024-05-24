@@ -1,0 +1,8 @@
+lei.update_gleif_data:
+  path: '/admin/config/services/lei/update/{nid}'
+  defaults:
+    _controller: '\Drupal\lei\Controller\LEIController::updateGleifData'
+    _title: 'Update LEI Data'
+  requirements:
+    _permission: 'administer site configuration'
+    nid: \d+

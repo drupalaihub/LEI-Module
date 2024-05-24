@@ -1,0 +1,19 @@
+uuid: c8e9504f-04f2-441d-b826-7eb92bbb5ccc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_lei_code
+    - node.type.application
+id: node.application.field_lei_code
+field_name: field_lei_code
+entity_type: node
+bundle: application
+label: 'LEI code'
+description: 'LEI code - plain text maximum 20 characters.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,20 @@
+<?php
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function lei_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    case 'help.page.lei':
+      return '<p>' . t('Provides functionality to manage LEI data for applications.') . '</p>';
+  }
+}
+
+/**
+ * Implements hook_page_attachments().
+ */
+function lei_page_attachments(array &$attachments) {
+    $attachments['#attached']['library'][] = 'lei/lei_styles';
+}
