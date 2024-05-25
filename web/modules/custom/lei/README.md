@@ -14,7 +14,7 @@ Copy the `lei` module directory to your Drupal site's `modules/custom` directory
 
 ### Step 2: Enable the Module
 
-Enable the module using Drush or the Drupal admin UI.
+Enable the module using Drush or the Drupal admin UI. When you enable the module, Drupal will automatically import the configuration defined in YAML files located in the install directory of the module.
 
 **Using Drush:**
 ```sh
