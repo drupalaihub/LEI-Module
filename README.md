@@ -11,22 +11,22 @@ This README file is based on the original README from [kaarele/lei-drupal-test](
 To get started with the LEI Drupal Test, follow these steps:
 
 1. Clone this repository:
-
-
+   
+   ```
    git clone https://github.com/kaarele/lei-drupal-test.git
-
+   ```
 
 2. Install dependencies:
-
-
+   
+   ```
    composer install
-
+   ```
 
 3. Start the Drupal server:
-
-
+   
+   ```
    drupal server
-
+   ```
 
 ## Contributing
 
@@ -35,3 +35,4 @@ If you would like to contribute to this project, please open an issue or submit 
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+```
